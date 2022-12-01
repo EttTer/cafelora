@@ -1,4 +1,4 @@
-header {
+/*header {
     padding: 1rem 0 1rem 0;
     height: 5rem;
   
@@ -14,7 +14,7 @@ header {
     width: 180px;
     height: 50px;
   
-    background-image: url("/img/site-logo.png");
+    background-image: url("/src/img/site-logo.png");
     background-size: contain;
   }
   
@@ -65,7 +65,7 @@ header {
     border: none;
   
     background-color: transparent;
-    background-image: url("/src/components/Header/site-logo.png");
+    background-image: url("/src/img/menu.png");
     background-size: contain;
   
     cursor: pointer;
@@ -107,4 +107,4 @@ header {
   
       text-align: center;
     }  
-  }
+  }*/

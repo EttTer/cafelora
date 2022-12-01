@@ -1,4 +1,4 @@
-import "./style.css";
+/*import "./style.css";*/
 export const Footer = () => {
     const element = document.createElement("footer");
   

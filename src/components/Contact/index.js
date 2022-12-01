@@ -3,7 +3,7 @@ import "./style.css";
 export const Contact = () => {
   const element = document.createElement("section");
 
-  element.innerHTML = `  <div class="container" id="contact">
+  element.innerHTML = ` <div class="container" id="contact">
   <h2>Kde nás najdete</h2>
   <div class="contact">
     <div class="contact__address">
