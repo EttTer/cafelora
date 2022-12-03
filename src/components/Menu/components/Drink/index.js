@@ -55,10 +55,18 @@ export const Drink = (props) => {
      </button>
    </div>
 `;
-
-  element
+element
     .querySelector(".drink__info")
-    .append(...layers.map((layer) => Layer(layer)));
+    .append(
+      ...layers.map((layer) =>
+        Layer({ color: layer.color, label: layer.label })
+      )
+    );
 
   return element;
+ 
 };
+
+/* Layer({ color: layer.color, label: layer.label })
+)
+);*/

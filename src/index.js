@@ -17,7 +17,7 @@ pageElement.classList.add('page');
 const main = document.createElement('main');
 main.append(
   Banner(),
-  Menu(),
+  Menu({}),
   Gallery(),
   Contact(),
 );
