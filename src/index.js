@@ -9,7 +9,22 @@ import {Header} from "./components/Header/index.js"
 import {Menu} from "./components/Menu/index.js"
 
 
-console.log('funguju!');
+const layers = [
+    {
+      color: '#feeeca',
+      label: 'mléčná pěna',
+    },
+    {
+      color: '#fed7b0',
+      label: 'teplé mléko',
+    },
+    {
+      color: '#613916',
+      label: 'espresso',
+    },
+  ];
+
+layers.forEach(layer => {console.log(layer);});
 
 
 const pageElement = document.createElement('div');

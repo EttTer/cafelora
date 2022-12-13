@@ -33,11 +33,10 @@ headers: { Authorization:`Email ettlerova@centrum.cz`,
         //console.log(data);
         element.replaceWith(Menu({drinks: data.results}));
       });
-
-
         return element;
       
 }
+
 element.querySelector(".drinks-list").append(...drinks.map((drink) =>
       Drink({
         id: drink.id,
@@ -53,6 +52,21 @@ element.querySelector(".drinks-list").append(...drinks.map((drink) =>
 };
 
 
+
+const layers = [
+  {
+    color: '#feeeca',
+    label: 'mléčná pěna',
+  },
+  {
+    color: '#fed7b0',
+    label: 'teplé mléko',
+  },
+  {
+    color: '#613916',
+    label: 'espresso',
+  },
+];
 
 
 /* funkční řešení Tom
