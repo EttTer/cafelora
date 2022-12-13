@@ -1,4 +1,19 @@
+
 import "./style.css";
+
+import { HomePage } from "./pages/HomePage/index.js";
+import { OrderPage } from "./pages/OrderPage/index.js";
+
+const { pathname } = window.location;
+
+if (pathname === "/") {
+  document.querySelector("#app").append(HomePage());
+} else if (pathname === "/objednavka") {
+  document.querySelector("#app").append(OrderPage());
+}
+
+
+/*import "./style.css";
 
 import {Banner} from "./components/Banner/index.js"
 
@@ -24,7 +39,9 @@ const layers = [
     },
   ];
 
-layers.forEach(layer => {console.log(layer);});
+layers.forEach(layer => {console.log(layer)
+    
+});
 
 
 const pageElement = document.createElement('div');
@@ -43,4 +60,4 @@ pageElement.append(
   Footer(),
 );
 
-document.querySelector('#app').append(pageElement);
+document.querySelector('#app').append(pageElement);*/
